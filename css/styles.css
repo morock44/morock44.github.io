@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+
+
+/*----- header -----*/
+header {
+  background-color: #333;
+  height: 200px;
+}
+header p {
+  color: #fff;
+
+}
+header h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  font-size: 40px;
+  border-bottom: 1px dashed #fff;
+}
+
+
+
+/*----- main -----*/
+
+
+section h2 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+section .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/*----- Skills -----*/
+
+.skill-container {
+  overflow: hidden;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.skills {
+  margin: 70px 0 30px 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.skill {
+  width: 300px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.flt-left {
+  float: left;
+}
+.flt-right {
+  float: right;
+}
+
+.skill h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0 0 0;
+  margin-bottom: 0;
+}
+.skill .desc {
+  padding: 0 10px;
+  margin: 5px 0 8px 0;
+  text-align: left;
+}
+
+.xl {
+  font-size: 40px;
+}
+
+
+
+/*----- Learning -----*/
+
+.learning {
+  margin: 100px 0 30px 0;
+}
+.learning-skill {
+  width: 250px;
+  font-size: 14px;
+}
+
+.learning-skill h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+.learning-list ul {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.learning-list > ul {
+  margin: 8px 0 8px 0;
+  padding: 0 25px;
+}
+.learning-list  ul li ul {
+  padding-right: 0;
+}
+.learning-list  ul li ul li {
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+
+
+/*----- minds -----*/
+
+.minds {
+  background: #eee;
+  margin: 100px 0 30px 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.mind {
+  width: 250px;
+  background: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  position: relative;
+}
+
+.mind img {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.mind h1 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+.mind .desc {
+  padding: 0 10px;
+  margin: 5px 0 8px 0;
+}
+
+
+
+/*----- footer -----*/
+footer {
+  margin: 100px 0 30px;
+  text-align: center;
+}
